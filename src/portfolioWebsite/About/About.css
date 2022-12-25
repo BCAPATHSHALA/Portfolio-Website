@@ -8,7 +8,7 @@
 .about .leftDiv {
   flex: 1;
   /* background-color: beige; */
-  display: flex;
+  display: flex; 
   justify-content: center;
   align-items: center;
 }
