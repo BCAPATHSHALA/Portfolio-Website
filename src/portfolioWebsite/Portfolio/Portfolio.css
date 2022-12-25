@@ -1,0 +1,109 @@
+@import "../../global.css";
+
+.portfolio {
+  background-color: var(--color-two);
+  display: flex;
+  flex-direction: column;
+}
+
+/*===========TopUl==========*/
+.portfolio .TopUl {
+  /* border: 2px solid red; */
+  height: 70px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.portfolio .TopUl .PortfolioList {
+  font-weight: 600;
+  background: var(--color-one);
+  color: #f1faee;
+  padding: 2px 10px;
+  cursor: pointer;
+}
+
+.portfolio .TopUl .PortfolioList:hover {
+  background-color: #1d3557;
+}
+
+.activePort {
+  background-color: var(--color-three);
+  color: var(--color-two);
+}
+
+/*===========BottomDiv==========*/
+.portfolio .bottomDiv {
+  /* border: 2px solid black; */
+  height: calc(100% - 70px);
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: wrap; 
+}
+.divContent {
+  border: 2px solid var(--color-three);
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  border-radius: 10px;
+  padding: 10px;
+  transition: all 0.5s ease-in-out;
+}
+.divContent:hover {
+  transform: scale(1.1);
+}
+.divContent .imgDiv {
+  height: 50%;
+  width: 200px;
+  position: relative;
+  overflow: hidden;
+}
+.divContent .imgDiv img {
+  width: 99%;
+  height: 96%;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 10px;
+}
+.divContent h4 {
+  font-weight: 600;
+  font-size: 18px;
+  color: var(--color-three);
+  text-align: center;
+}
+.divContent .btnDiv {
+  /* border:1px solid #e63946; */
+  display: flex;
+  justify-content: space-around;
+  margin-top: 15px;
+  flex-wrap: wrap;
+  gap: 5px;
+}
+.divContent .btnDiv a {
+  display: inline-block;
+  background-color: var(--color-one);
+  color: var(--color-two);
+  padding: 5px 10px;
+  text-decoration: none;
+  font-weight: 600;
+  width: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  border-radius: 4px;
+  transition: all 0.5s ease-in-out;
+}
+
+.tag {
+  font-size: 10px;
+  color: var(--color-three);
+}
+.btnDiv a:hover {
+  background: var(--color-three);
+}

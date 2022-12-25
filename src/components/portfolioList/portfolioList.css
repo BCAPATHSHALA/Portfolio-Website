@@ -1,0 +1,14 @@
+@import "../../global.css";
+
+.portfolio ul li {
+  font-size: 14px; 
+  margin-right: 50px;
+  padding: 7px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.portfolio ul li .active {
+  background-color: var(--main-color);
+  color: #fff;
+}

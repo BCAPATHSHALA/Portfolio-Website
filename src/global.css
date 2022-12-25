@@ -1,0 +1,17 @@
+:root {
+  --color-one: #e63946;
+  --color-two: #f1faee;
+  --color-three: #1d3557;
+}
+
+.light {
+    --color-one: #e63946;
+    --color-two: #f1faee;
+    --color-three: #1d3557;
+}
+
+.dark{
+    --color-one: #e63946;
+    --color-two: #1c1c1c;
+    --color-three: #f1faee;;
+}

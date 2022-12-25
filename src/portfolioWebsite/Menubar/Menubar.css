@@ -1,0 +1,45 @@
+@import "../../global.css";
+
+.menubar {
+  background: var(--color-two);
+  width: 100vw;
+  height: 70px;
+  position: fixed;
+}
+.navContainer {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.navContainer ul {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  text-transform: capitalize;
+  flex-wrap: wrap;
+  gap: 60px;
+  /* background-color: blueviolet; */
+  padding: 10px;
+  /* border: 1px solid white; */
+  border-radius: 10px;
+}
+.link {
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 700;
+  color: var(--color-three);
+  transition: all 0.5 ease-in-out;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.activeMenu {
+  color: var(--color-one);
+}
+.link:hover {
+  color: var(--color-three);
+  transform: scale(1.2);
+}

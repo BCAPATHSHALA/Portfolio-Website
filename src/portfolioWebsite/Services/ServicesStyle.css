@@ -1,0 +1,51 @@
+@media screen and (max-width: 991px) {
+  .bigServices {
+    gap: 20px;
+  }
+  .bigServices .uiuxDiv {
+    width: 290px;
+    height: 45%;
+  }
+
+  .bigServices .uiuxDiv h2 {
+    font-size: 20px;
+  }
+  .uiuxDiv .uiux {
+    width: 99%;
+    gap: 12px;
+    margin-top: 20px;
+  }
+  .uiuxDiv .uiux .iconDiv {
+    font-size: 30px;
+    width: 90px;
+    height: 90px;
+  }
+}
+
+@media screen and (max-width: 430px) {
+  .bigServices {
+    max-width: 90%;
+    max-height: 90%;
+    min-width: 90%;
+    min-height: 90%;
+    /* border: 1px solid gray; */
+  }
+  .bigServices .uiuxDiv {
+    width: 200px;
+    height: 200px;
+  }
+
+  .bigServices .uiuxDiv h2 {
+    font-size: 18px;
+  }
+  .uiuxDiv .uiux {
+    width: 99%;
+    gap: 10px;
+    margin-top: 10px;
+  }
+  .uiuxDiv .uiux .iconDiv {
+    font-size: 30px;
+    width: 60px;
+    height: 60px;
+  }
+}

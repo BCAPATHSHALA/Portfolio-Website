@@ -1,0 +1,101 @@
+@import "../../global.css";
+
+.home {
+  background: var(--color-two);
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/*==========LeftDiv==========*/
+.home .leftDiv {
+  /* background-color: blueviolet; */
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.home .contentDiv {
+  /* background-color: blueviolet; */
+  width: 70%;
+  height: 50%;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 10px;
+  /* border: 1px solid white; */
+  color: var(--color-three);
+  box-shadow: 0px 0px 10px var(--color-three);
+}
+.home .contentDiv h2 {
+  font-size: 20px;
+  align-self: center;
+}
+.home .contentDiv h3 {
+  font-size: 30px;
+  align-self: center;
+}
+.home .contentDiv h1 {
+  align-self: center;
+}
+.i {
+  color: orange;
+}
+.n {
+  color: var(--color-three);
+}
+.d {
+  color: green;
+}
+
+/*==========RightDiv==========*/
+.home .rightDiv {
+  /* background-color: #b6b4b4; */
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.home .imgDiv {
+  width: 70%;
+  height: 70%;
+  /* background-color: rebeccapurple; */
+  position: relative;
+  overflow: hidden;
+  border-radius: 10%;
+  /* box-shadow: 0px 0px 10px #706c6c; */
+  box-shadow: 0px 0px 10px var(--color-three);
+}
+.home .image {
+  width: 70%;
+  position: absolute;
+  right: 10px;
+  object-fit: cover;
+}
+.home .socialMedia {
+  width: 90px;
+  height: 200px;
+  position: absolute;
+  top: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  /* background-color: aqua; */
+}
+.home .socialMedia a {
+  text-decoration: none;
+  margin-left: 3px;
+  width: 100%;
+}
+.home .socialMedia a i {
+  font-size: 35px;
+  color: var(--color-three);
+  transition: all 0.5s ease-in-out;
+}
+
+.home .socialMedia a i:hover {
+  color: var(--color-one);
+  transform: translateX(3px);
+}

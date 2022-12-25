@@ -1,0 +1,104 @@
+@media screen and (max-width: 991px) {
+  .about {
+    background-color: var(--color-two);
+    flex-direction: column;
+  }
+  .about .photoDiv {
+    display: none;
+  }
+  .about .leftDiv {
+    height: 30%;
+    flex: 1;
+    /* border: 2px solid green; */
+    margin-bottom: 10px;
+  }
+  .about .rightDiv {
+    height: 60%;
+    flex: 2;
+    margin-top: -28px;
+    /* border: 1px solid; */
+  }
+  .about .skillEduDiv {
+    width: 90%;
+    height: 90%;
+  }
+  .about .skillBox {
+    width: 150px;
+    padding: 8px;
+  }
+  .about .skill {
+    gap: 0px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .about .contentDiv p {
+    padding-bottom: 10px;
+  }
+  .about .leftDiv {
+    margin-bottom: 40px;
+  }
+  .about .contentDiv {
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+  }
+  .about .high {
+    flex-direction: column;
+    height: 90px;
+  }
+  .about .desc {
+    flex: 2;
+    border-radius: 30px 30px 0px 0px;
+  }
+  .about .icon {
+    flex: 2;
+    border-radius: 0px 0px 30px 30px;
+  }
+}
+
+@media screen and (max-width: 430px) {
+  .about .contentDiv p {
+    font-size: 12px;
+  }
+  .about .contentDiv h1 {
+    font-size: 30px;
+  }
+  .about .btn1 {
+    height: 15px;
+  }
+  .about .skillEduDiv {
+    width: 100%;
+    height: 70%;
+  }
+  .about .skillBox {
+    padding: 4px;
+    width: 110px;
+    display: flex;
+  }
+  .about .high {
+    flex-direction: row;
+    height: 90px;
+    /* border: 2px solid gold; */
+  }
+  .about .desc {
+    width: 100px;
+    height: 54px;
+    border-radius: 30px 30px 0px 30px;
+    /* border: 2px solid #262625; */
+  }
+  .about .icon {
+    width: 100px;
+    height: 54px;
+    border-radius: 30px 0px 30px 30px;
+  }
+  .about .cllg h4 {
+    font-size: 12px;
+  }
+  .about .year{
+    font-size: 10px;
+  }
+  .about .icon i{
+    font-size: 20px;
+  }
+}

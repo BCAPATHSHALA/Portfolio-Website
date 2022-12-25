@@ -1,0 +1,65 @@
+@media screen and (min-width: 425px) {
+  .navContainer ul {
+    gap: 35px;
+    padding: 10px;
+    border-radius: 10px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .navContainer ul {
+    gap: 30px;
+    padding: 20px 40px;
+  }
+  .navContainer ul .link .fa-solid {
+    font-size: 1.8rem;
+  }
+}
+
+@media screen and (min-width: 991px) {
+  .logoContainer {
+    display: block;
+    width: 200px;
+    height: 20vh;
+    border: 4px solid #323232;
+    position: relative;
+    border-radius: 0px 15px 0px 15px;
+    margin-top: 2px;
+    margin-left: 2px;
+  }
+  .logoContainer .logo {
+    position: absolute;
+    font-size: 50px;
+    top: 33%;
+    left: 20%;
+    color: #1a1a1a;
+  }
+  .logoContainer .logo .span1 {
+    color: crimson;
+  }
+  .navContainer {
+    width: 212px;
+    height: 80vh;
+    align-items: center;
+    margin-left: 0;
+  }
+  .navContainer ul {
+    flex-direction: column;
+    gap: 40px;
+    padding: 20px;
+    border-radius: 0px 15px 15px 0;
+    margin-bottom: 0px;
+    margin-left: -10px;
+    background-color: blueviolet;
+  }
+  .navContainer ul .link {
+    align-items: center;
+    gap: 10px;
+  }
+  .navContainer ul .link p {
+    display: block;
+    font-size: 2rem;
+    color: white;
+    text-transform: capitalize;
+  }
+}
